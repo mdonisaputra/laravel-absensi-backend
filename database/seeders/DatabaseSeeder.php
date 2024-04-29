@@ -37,6 +37,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
 		    AttendanceSeeder::class,
+            PermissionSeeder::class,
+
 	    ]);
     }
 }

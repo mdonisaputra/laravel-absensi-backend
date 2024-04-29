@@ -1,7 +1,7 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="index.html">Stisla</a>
+            <a href="index.html">Absensi MDS</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
             <a href="index.html">St</a>
@@ -28,6 +28,13 @@
                 <a href="{{ route('attendances.index') }}" class="nav-link">
                     <i class="fa-solid fa-clipboard-user"></i>
                     <span>Attendances</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="{{ route('permissions.index') }}" class="nav-link">
+                    <i class="fa-solid fa-person-circle-check"></i>
+                    <span>Permission</span>
                 </a>
             </li>
 </aside>              
