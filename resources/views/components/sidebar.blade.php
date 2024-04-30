@@ -9,7 +9,7 @@
         <ul class="sidebar-menu">
             
             <li class="nav-item">
-                <a href="#"
+                <a href="{{route('home')}}"
                     class="nav-link"><i class="fa-solid fa-house"></i><span>Dashboard</span></a>
                 
             </li>
